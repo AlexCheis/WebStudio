@@ -10,57 +10,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>WebStudio</title>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__line">
                 
                 <div class="tex__logo">
-                    <h1><span class="Web">Web</span>Studio</h1>
+                    <a href="#" class="header__webstudio"><span class="Web">Web</span>Studio</a>
                 </div>
 
-                <div class="nav">
-                    <a href="@" class="nav__item">Студія</a>
-                    <a href="@" class="nav__item">Портфоліо</a>
-                    <a href="@" class="nav__item">Контакти</a>
-                </div>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav__li"><a href="#" class="nav__item">Студія</a></li>
+                        <li class="nav__li"><a href="#" class="nav__item">Портфоліо</a></li>
+                        <li class="nav__li"><a href="#" class="nav__item">Контакти</a></li>
+                    </ul>    
+                </nav>
 
                 <div class="email">
-                    <a class="email__link" href="info@devstudio.com">info@devstudio.com</a>
+                    <a class="email__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </div>
 
                 <div class="telefon">
-                    <a class="contacts__link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                    <a class="contacts__link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
-    <div class="second">
+    <section class="second">
                 
         <div class="second__text">
-            Ефективні рішення для<br>
-            вашого бізнесу
+            <h2>Ефективні рішення для<br>
+                вашого бізнесу</h2>
         </div>
 
         <div class="btn">
-            <button class="button">
+            <button type="button" class="button">
                 Замовити послугу
             </button> 
         </div>
 
-    </div>
+    </section>
 
-    <div class="three">
+    <section class="three">
 
         <div class="container">
 
             <div class="three__line">
         
                 <div class="titleone">
-                    <h1 class="three_title">УВАГА ДО ДЕТАЛЕЙ</h1>
+                    <h2 class="three_title">УВАГА ДО ДЕТАЛЕЙ</h2>
                     <p class="three__text">  Ідейні міркування, і навіть початок<br>
                     повсякденної роботи з формування<br> 
                     позиції.
@@ -68,21 +70,21 @@
                 </div>
 
                 <div class="titletwo">
-                    <h1 class="three_title">ПУНКТУАЛЬНІСТЬ</h1>
+                    <h2 class="three_title">ПУНКТУАЛЬНІСТЬ</h2>
                     <p class="three__text"> Завдання організації, особливо рамки,<br> 
                         і місце навчання кадрів тягне у себе.
                     </p>
                 </div>
 
                 <div class="titlethree">
-                    <h1 class="three_title">ПЛАНУВАННЯ</h1>
+                    <h2 class="three_title">ПЛАНУВАННЯ</h2>
                     <p class="three__text">Так само консультація з широким<br> 
                         активом значною мірою зумовлює.
                     </p>
                 </div>
 
                 <div class="titlefour">
-                    <h1 class="three_title">СУЧАСНІ ТЕХНОЛОГІЇ</h1>
+                    <h2 class="three_title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
                     <p class="three__text">Значимість цих проблем настільки<br>
                         очевидна, що реалізація планових<br> 
                         завдань.
@@ -90,9 +92,9 @@
                 </div>
             </div>    
         </div>  
-    </div>
+    </section>
 
-    <div class="four">
+    <section class="four">
         
         <div class="container">
 
@@ -107,9 +109,9 @@
             </div>
 
         </div>    
-    </div>
+    </section>
 
-    <div class="five">
+    <section class="five">
 
         <div class="five__title">
             <h1>Наша команда</h1>
@@ -124,11 +126,11 @@
                 </div>
 
                 <div class="five__item__titell">
-                    <h1>Ігор Дем'яненко</h1>
+                    <h2>Ігор Дем'яненко</h2>
                 </div>
 
                 <div class="five__item_subb">
-                    <h2>Product Designer</h2>
+                    <h3>Product Designer</h3>
                 </div>
 
             </div>
@@ -140,11 +142,11 @@
                 </div>
 
                 <div class="five__item__titel">
-                    <h1>Ольга Рєпіна</h1>
+                    <h2>Ольга Рєпіна</h2>
                 </div>
 
                 <div class="five__item_sub">
-                    <h2>Frontend Developer</h2>
+                    <h3>Frontend Developer</h3>
                 </div>
 
             </div>
@@ -156,11 +158,11 @@
                 </div>
 
                 <div class="five__item__titel">
-                    <h1>Микола Тарасов</h1>
+                    <h2>Микола Тарасов</h2>
                 </div>
 
                 <div class="five__item_sub">
-                    <h2>Marketing</h2> 
+                    <h3>Marketing</h3> 
                 </div>
 
             </div>
@@ -172,25 +174,25 @@
                 </div>
 
                 <div class="five__item__titel">
-                    <h1>Михайло Єрмаков</h1>
+                    <h2>Михайло Єрмаков</h2>
                 </div>
 
                 <div class="five__item_sub">
-                    <h2>UI Designer</h2>
+                    <h3>UI Designer</h3>
                 </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-    <div class="footer">
+    <footer class="footer">
 
         <div class="container">
 
             <div class="footer__web">
-                <h1><span class="web_footer">Web</span>Studio</h1>
+                <a href="#" class="web_footer"><span class="Web">Web</span>Studio</a>
             </div>
 
             <div class="footer__title">
@@ -198,10 +200,10 @@
             </div>
 
             <div class="footer__down">
-                <h2><a class="footer__down" href="info@devstudio.com">info@devstudio.com</a></h2>
-                <h3><a class="footer__down" href="+38 096 111 11 11">+38 096 111 11 11</a></h3>
+                <h2><a class="footer__down" href="mailto:info@devstudio.com">info@devstudio.com</a></h2>
+                <h3><a class="footer__down" href="tel:+380961111111">+38 096 111 11 11</a></h3>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>

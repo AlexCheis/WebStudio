@@ -275,3 +275,72 @@ body {
     text-decoration: none;
 }
 
+/*------Portfolio--------*/
+
+.sec__nav {
+    margin-left: 512px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.sec__nav__ul {
+    list-style-type:none;
+    display:flex;
+    
+}
+
+.sec__nav__link {
+    margin-right: 8px;
+
+    background: #F5F4FA;
+    border-radius: 4px;
+    color: #212121;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+
+    padding: 6px 22px;
+}
+
+.sec__nav__link:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    transition: 300ms;
+}
+
+.photograph {
+    /*background-color: #F5F5F5;*/
+    padding-bottom: 94px;
+}
+
+.photograph__line {
+    display: flex;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #212121;
+
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.card_sub {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
+
+.cardfirst , .cardtwo , .cardfour, .cardfive, .cardseven, .cardeight {
+    margin-right: 30px;
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+}

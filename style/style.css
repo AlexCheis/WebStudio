@@ -256,8 +256,12 @@ body {
     font-size: 26px;
 }
 
-.web_footer {
+.web {
     color: #2196F3;
+}
+
+.web_footer {
+    color:#FFFFFF;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }

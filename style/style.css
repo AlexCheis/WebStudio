@@ -1,3 +1,8 @@
+:root {
+    --accent-color: #212121;
+	--text-color: #757575;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -12,6 +17,7 @@ body {
 
 .header__webstudio {
     text-decoration: none;
+    color: #000000;
 }
 
 .nav__li {
@@ -22,6 +28,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    line-height: 31px;
 }
 
 .Web {
@@ -35,9 +42,10 @@ body {
 
 .nav__item  {
     text-decoration: none;
-    color: #212121;
+    color: var(--accent-color);
     font-size: 14px;
     font-weight: 500;
+    line-height: 16px;
     
     margin-right: 50px;
     transition: color 0.2s linear;
@@ -55,7 +63,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     font-size: 14px;    
-    color: #212121;
+    line-height: 16px;
+    color: var(--text-color);
 
     transition: color 0.2s linear;
 }
@@ -72,7 +81,14 @@ body {
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    color: #757575;
+    color: var(--text-color);
+    line-height: 16px;
+
+    transition: color 0.2s linear;
+}
+
+.contacts__link:hover {
+    color: #2196F3;  
 }
 
 .second {
@@ -84,6 +100,8 @@ body {
     font-size: 44px;    
     color: #FFFFFF;
     text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
 
     padding-top: 200px;
 }
@@ -95,6 +113,8 @@ body {
     text-align: center;
     align-items: center;
     background: #2196F3;
+    line-height: 30px;
+    cursor: pointer;
     
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -123,7 +143,8 @@ body {
 .three_title {
     font-weight: 700;
     font-size: 14px;
-    color: #212121;
+    color: var(--accent-color);
+    line-height: 16px;
 
     margin-right: 30px;
 }
@@ -131,7 +152,8 @@ body {
 .three__text {
     font-weight: 400;
     font-size: 14px;
-    color: #757575;
+    color: var(--text-color);
+    line-height: 24px;
 
     margin-right: 30px;
     margin-top: 10px;
@@ -146,8 +168,9 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    color: #212121;
+    color: var(--accent-color);
     margin-bottom: 50px;
+    line-height: 42px;
 }
 
 .four__images {
@@ -190,7 +213,8 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
-    color: #212121;
+    color: var(--accent-color);
+    line-height: 42px;
 
     padding-top: 94px;
     padding-bottom: 50px;
@@ -205,39 +229,43 @@ body {
 
 
 .five__item__titel {
-    color: #212121;
+    color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    line-height: 19px;
     
     margin-left: 30px;
 }
 
 .five__item_sub {
-    color: #757575;
+    color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    line-height: 19px;
     
     margin-left: 30px;
 }
 
 .five__item_subb {
-    color: #757575;
+    color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    line-height: 19px;
 
     margin-left: 215px;
 }
 
 .five__item__titell {
-    color: #212121;
+    color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    line-height: 19px;
 
     margin-left: 215px;
 }
@@ -270,6 +298,12 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+    line-height: 24px;
+    transition: color 0.2s linear;
+}
+
+.footer__title:hover {
+    color: #2196F3;
 }
 
 .footer__down {
@@ -277,6 +311,12 @@ body {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    line-height: 24px;
+    transition: color 0.2s linear;
+}
+
+.footer__down:hover {
+    color: #2196F3;
 }
 
 .sec__nav {
@@ -296,11 +336,13 @@ body {
 
     background: #F5F4FA;
     border-radius: 4px;
-    color: #212121;
+    color: var(--accent-color);
     text-align: center;
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+    line-height: 26px;
+    font-family: inherit;
 
     padding: 6px 22px;
 }
@@ -322,7 +364,8 @@ body {
 .text {
     font-weight: 700;
     font-size: 18px;
-    color: #212121;
+    line-height: 36px;
+    color: var(--accent-color);
 
     padding-left: 24px;
     padding-top: 20px;
@@ -332,7 +375,8 @@ body {
 .card_sub {
     font-weight: 400;
     font-size: 16px;
-    color: #757575;
+    color: var(--text-color);
+    line-height: 30px;
 
     padding-left: 24px;
     padding-bottom: 20px;

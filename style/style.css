@@ -6,6 +6,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
 }
 
 .header__line {
@@ -300,6 +303,9 @@ body {
     color: #FFFFFF;
     line-height: 24px;
     transition: color 0.2s linear;
+    text-decoration: none;
+
+    margin-top: 20px;
 }
 
 .footer__title:hover {
@@ -388,4 +394,8 @@ body {
 
 .header {
     border-bottom: 1px solid #ECECEC;
+}
+
+.lose {
+    margin-top: 9px;
 }
